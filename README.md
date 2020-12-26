@@ -29,9 +29,9 @@ When i, j have same color, ![](https://latex.codecogs.com/svg.latex?sgn(x_i-x_j)
 
 ![](https://latex.codecogs.com/svg.latex?=\frac{2|Red||Blue|}{n(n-1)}\frac{1}{|Red||Blue|}\[N(red%3Eblue)-N(blue%3Ered)\])
 
-![](https://latex.codecogs.com/svg.latex?=P(red,blue\ pairs)\times\[P(red%3Eblue)-P(blue%3Ered)\])
+![](https://latex.codecogs.com/svg.latex?=P(red,blue%20pairs)\times\[P(red%3Eblue)-P(blue%3Ered)\])
 
-![](https://latex.codecogs.com/svg.latex?\simeq\ Gini\ impurity\times\ diff(red,blue))
+![](https://latex.codecogs.com/svg.latex?\simeq%20Gini%20impurity\times%20diff(red,blue))
 
 There is a trade-off between balance & difference.
 
@@ -40,7 +40,7 @@ In practice, we can use other impurities (entropy...) & differences (log odds...
 
 **Note that:**
 
-![](https://latex.codecogs.com/svg.latex?P(red,blue\ pairs)=\frac{n-1}{n}\ 2P_{Red}P_{Blue}\simeq%201-(P_{Red}^2+P_{Blue}^2))
+![](https://latex.codecogs.com/svg.latex?P(red,blue%20pairs)=\frac{n-1}{n}%202P_{Red}P_{Blue}\simeq%201-(P_{Red}^2+P_{Blue}^2))
 
 *([Gini impurity](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity))*
 
@@ -100,7 +100,7 @@ In short:
 
 With precompute:
 
-+ ![](https://latex.codecogs.com/svg.latex?A=sgn(y-y^\top)\,\ A_{ij}=sgn(y_i-y_j))
++ ![](https://latex.codecogs.com/svg.latex?A=sgn(y-y^\top)\,%20A_{ij}=sgn(y_i-y_j))
 
 + sort every dimension
 
